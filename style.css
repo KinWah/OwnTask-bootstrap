@@ -17,8 +17,8 @@ header {
     right: 0;
     top: 0;
     position: fixed;
-    /*display: flex;*/
     padding: .05rem;
+    z-index: 1
 }
 
 header .title {
@@ -108,7 +108,7 @@ main {
     right: 0;
     top: 0.5rem;
     bottom: 0.53rem;
-    position: absolute;
+    position: relative;
 }
 
 .msg .btn-group {
@@ -193,4 +193,7 @@ li i {
 }
 .icon2{
     background: url("images/2.png") no-repeat left center;
+}
+.content{
+    position: relative;
 }
