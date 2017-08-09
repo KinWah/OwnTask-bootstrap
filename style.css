@@ -18,7 +18,7 @@ header {
     top: 0;
     position: fixed;
     padding: .05rem;
-    z-index: 1
+    z-index: 3000;
 }
 
 header .title {
@@ -205,5 +205,10 @@ li i {
 }
 
 .content {
-    position: relative;
+    margin-bottom: 0.53rem;
+}
+
+.dropdown-menu{
+    width: 100%!important;
+    min-width: 100%!important;
 }
