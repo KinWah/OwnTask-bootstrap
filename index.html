@@ -20,16 +20,36 @@
 </header>
 <main>
     <div class="msg">
-        <div class="btn-group">
-            <button type="button" class="btn btn-block">
-                所在地<span class="caret"></span>
-            </button>
-            <button type="button" class="btn btn-block btn1">
-                食宿<span class="caret"></span>
-            </button>
-            <button type="button" class="btn btn-block btn2">
-                病人情况<span class="caret"></span>
-            </button>
+        <div class="btn-toolbar" role="toolbar">
+            <div class="btn-group">
+                <button type="button" class="btn btn-block dropdown-toggle" data-toggle="dropdown">
+                    所在地<span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">北京</a></li>
+                    <li><a href="#">上海</a></li>
+                    <li><a href="#">深圳</a></li>
+                </ul>
+            </div>
+            <div class="btn-group">
+                <button type="button" class="btn btn-block btn1 dropdown-toggle" data-toggle="dropdown">
+                    食宿<span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">一房一厅包三餐</a></li>
+                    <li><a href="#">两房一厅包三餐</a></li>
+                </ul>
+            </div>
+            <div class="btn-group">
+                <button type="button" class="btn btn-block btn2 dropdown-toggle" data-toggle="dropdown">
+                    病人情况<span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">痊愈</a></li>
+                    <li><a href="#">健康</a></li>
+                    <li><a href="#">留院观察</a></li>
+                </ul>
+            </div>
         </div>
     </div>
     <div class="content">
@@ -168,7 +188,7 @@
                 </li>
             </ul>
         </div>
-        </div>
+    </div>
     </div>
 </main>
 <footer>

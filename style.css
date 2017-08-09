@@ -111,10 +111,14 @@ main {
     position: relative;
 }
 
+.msg .btn-toolbar {
+    display: -webkit-flex;
+    flex-flow: row nowrap;
+}
+
 .msg .btn-group {
-    min-width: 100%;
-    display: flex;
-    border-bottom: 1px solid #e6eef0;
+    margin: 0;
+    flex: 1;
 }
 
 .msg .btn {
@@ -125,6 +129,7 @@ main {
     padding: 0.11rem 0 0.11rem 0;
     background: white;
     color: #a6a7a7;
+    border-bottom: 1px solid #e6eef0;
 }
 
 .msg .caret {
@@ -134,7 +139,7 @@ main {
 
 .msg .btn1 {
     border-left: 1px solid #e6eef0;
-    border-right: 2px solid #e6eef0;
+    border-right: 1px solid #e6eef0;
 }
 
 h3 {
